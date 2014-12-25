@@ -15,7 +15,7 @@ function trocaBanner() {
 
 
 
-var timer = setInterval(trocaBanner, 1000);
+var timer = setInterval(trocaBanner, 5000);
 
 var controle = document.querySelector('.pause');
 controle.onclick = function () {
@@ -23,7 +23,7 @@ controle.onclick = function () {
         clearInterval(timer);
         controle.className = 'play';
     } else {
-        timer = setInterval(trocaBanner, 1000);
+        timer = setInterval(trocaBanner, 5000);
         controle.className = 'pause';
     }
     return false;
