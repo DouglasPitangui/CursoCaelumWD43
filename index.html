@@ -32,8 +32,8 @@
                 <h2>
                     Busca
                 </h2>
-                <form>
-                    <input type="search">
+                <form action="http://www.google.com.br/search" id="form-busca">
+                    <input type="search" name="q" id="q">
                     <input type="image" src="img/busca.png">
                 </form>
             </section>
@@ -44,7 +44,14 @@
                 </h2>
                 <nav>
                     <ul>
-                        <li><a href="#">Blusas e Camisas</a></li>
+                        <li><a href="#">Blusas e Camisas</a>
+							<ul>
+								<li><a href="#">Manga curta</a></li>
+								<li><a href="#">Manga comprida</a></li>
+								<li><a href="#">Camisa social</a></li>
+								<li><a href="#">Camisa casual</a></li>
+							</ul>
+						</li>
 						<li><a href="#">Calças</a></li>
 						<li><a href="#">Saias</a></li>
 						<li><a href="#">Vestidos</a></li>
@@ -56,6 +63,7 @@
             </section>
             <!-- fim .menu-departamentos -->
             <img src="img/thaianypitangui.png" alt="Promoção: Big City Night">
+			<a href="#" class="pause"></a>
         </div>
         <!-- fim .container .destaque -->
 		<div class="container paineis">
@@ -200,5 +208,6 @@
 			</footer>
 			
    </body>
+   <script src="js/home.js"></script>
 
 </html>
