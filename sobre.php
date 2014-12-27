@@ -11,7 +11,7 @@
     <body>
                <header class="container">
             <h1>
-                  <a href="index.html"><img src="img/logo.png" alt="Mirror Fashion"></a>
+                  <a href="index.php"><img src="img/logo.png" alt="Mirror Fashion"></a>
             </h1>
             <p class="sacola">
                 Nenhum item na sacola de compras
@@ -28,7 +28,7 @@
                         <a href="#">Cartão Fidelidade</a>
                     </li>
                     <li>
-                        <a href="sobre.html">Sobre</a>
+                        <a href="sobre.php">Sobre</a>
                     </li>
                     <li>
                         <a href="#">Ajuda</a>
@@ -43,7 +43,7 @@
                 Mirror Fashion
             </strong>
             é a maior empresa comércio eletrônico no segmento de moda em todo o mundo.
-            Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com
+            Fundada há <?php print date("Y") - 1932; ?> anos, possui filiais em 124 países, sendo líder de mercado com
             mais de 90% de participação em 118 deles.
         </p>
         <p>
@@ -58,7 +58,7 @@
             </figcaption>
         </figure>
         <p>
-            Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.html">nossa loja</a> ou
+            Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.php">nossa loja</a> ou
             entre em contato se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos
             <a href="#diferenciais">diferenciais</a>.
         </p>
