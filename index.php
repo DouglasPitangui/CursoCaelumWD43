@@ -50,7 +50,7 @@
 			<ol>
 			<!-- primeiro produto -->
 				<li>
-					<a href="produto.html">
+					<a href="produto.php">
 						<figure id="teste">
 							<img src="img/produtos/miniatura1.png">
 							<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -113,7 +113,7 @@
 			<ol>
 			<!-- primeiro produto -->
 				<li>
-					<a href="produto.html">
+					<a href="produto.php">
 						<figure>
 							<img src="img/produtos/miniatura1.png">
 							<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
