@@ -159,6 +159,14 @@ label[for=azul]:after {
 .cores label:after {
 	margin-right: 10px;
 }
+/***************************************posicionar o display de tamanho ********************/
+fieldset {
+	display: inline-block;
+	vertical-align: top;
+	margin: 1em 0;
+	min-width: 200px;
+	width: 45%;
+}
 }
 /****************************************detalhes*************************************/
 .detalhes {
@@ -211,7 +219,6 @@ td:first-child {
 .cores label img {
 	border: 2px solid #ccc;
 }
-
 
 
 
