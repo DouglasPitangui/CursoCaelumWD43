@@ -111,6 +111,13 @@
 			<li>Presente em 124 países</li>
 			<li>Mais de um milhão de funcionários em todo o mundo</li>
 		</ul>
+		<iframe width="420" height="315" src="//www.youtube.com/embed/Tb06abHE4hY"
+					 frameborder="0" allowfullscreen></iframe>
+		
+	<iframe width="425" height="350" frameborder="0"
+		scrolling="no" marginheight="0" marginwidth="0"
+		src="http://maps.google.com.br/maps?q=Jacarezinho&amp;output=embed"></iframe>
+
 		<div id="rodape">
 			<img src="img/logo.png">
 			&copy; Copyright Mirror Fashion

@@ -386,3 +386,10 @@ E até mais frescuras, se estiver disposto:
 .painel button:hover:after {
 	border-top-color: #393939;
 }
+/**FONTES DO GOOGLE*/
+body {
+font-family: 'PT Sans', sans-serif;
+}
+.painel h2 {
+font-family: 'Bad Script', sans-serif;
+}
