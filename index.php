@@ -51,7 +51,7 @@
 			<!-- primeiro produto -->
 					<?php
 						$conexao = mysqli_connect("127.0.0.1", "root", "", "WD43");
-						$dados = mysqli_query($conexao, "SELECT * FROM produtos ORDER BY data LIMIT 0, 6");
+						$dados = mysqli_query($conexao, "SELECT * FROM produtos ORDER BY data LIMIT 0, 12");
 						while ($produto = mysqli_fetch_array($dados)):
 							?>
 							<li>
@@ -64,6 +64,7 @@
 							</li>
 				<?php endwhile; ?>
 			</ol>
+			<button type="button">Mostra mais</button>
 			</section>
 			<!--****************************************************************-->
 			<!-- ***************produtos mais vendidos********************** -->
@@ -73,7 +74,7 @@
 			<ol>
 					<?php
 						$conexao = mysqli_connect("127.0.0.1", "root", "", "WD43");
-						$dados = mysqli_query($conexao, "SELECT * FROM produtos ORDER BY vendas desc LIMIT 0, 6");
+						$dados = mysqli_query($conexao, "SELECT * FROM produtos ORDER BY vendas desc LIMIT 0, 12");
 						while ($produto = mysqli_fetch_array($dados)):
 							?>
 							<li>
@@ -86,6 +87,7 @@
 							</li>
 				<?php endwhile; ?>
 			</ol>
+			<button type="button">Mostra mais</button>
 			</section>
 			
 			</div>
@@ -93,6 +95,7 @@
 		<?php include("rodape.php"); ?>
 			
    </body>
+   <script src="js/jquery.js"></script>
    <script src="js/home.js"></script>
 
 </html>
